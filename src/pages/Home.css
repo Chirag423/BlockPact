@@ -1,0 +1,56 @@
+/* Container for the entire home page */
+.home-container {
+    
+    min-height: 100vh; /* Ensures it fills the screen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Allows room for additional content */
+  }
+  
+  
+  /* Header */
+  .about-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Divider (horizontal line) */
+  .divider {
+    width: 80%;
+    border: 1px solid white;
+    margin-bottom: 40px;
+  }
+  
+  /* Button container */
+  .button-container {
+    display: flex;
+    gap: 40px;
+  }
+  
+  /* Option card styling */
+  .option-card {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Button styling */
+  .option-button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .option-button:hover {
+    background-color: lightgray;
+  }
+  
